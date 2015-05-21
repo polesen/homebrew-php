@@ -3,9 +3,9 @@ require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 class Php53Couchbase < AbstractPhp53Extension
   init
   homepage 'http://pecl.php.net/package/couchbase'
-  url 'http://pecl.php.net/get/couchbase-1.2.2.tgz'
-  sha1 '29cef6c0692a8e3fa3220d62fcf57b442499a2b0'
-  head 'https://github.com/couchbase/php-ext-couchbase.git'
+  url 'http://pecl.php.net/get/couchbase-2.0.7.tgz'
+  sha1 '7c0f89a2f0a9ca2e0f7ed8a1b0b9bb601cc3f6aa'
+  head 'https://github.com/couchbaselabs/php-couchbase.git'
 
   option 'with-igbinary', "Build with igbinary support"
   depends_on 'libcouchbase'
